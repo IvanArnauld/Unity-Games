@@ -1,0 +1,42 @@
+IKA Mini Golf
+Overview
+IKA Mini Golf is an entertaining mini-golf game developed using Unity Engine. With intuitive controls and engaging gameplay mechanics, players can enjoy sinking balls into holes across multiple levels.
+
+Features
+Menu:
+
+Start the game or exit the application from the main menu.
+Cursor is visible on the menu for easy navigation.
+Gameplay:
+
+Control the character's movement using W, A, S, D keys or arrow keys.
+Rotate the camera by moving the mouse.
+Hit the ball in the direction of the camera's position relative to the ball.
+Visual arrow indicator around the ball shows the direction of the shot.
+Hold down the space bar to increase the power of your shot.
+Release the space bar to hit the ball with the force proportional to the duration of holding the space bar.
+Display of shot power on the screen.
+Keep track of strokes with a stroke counter.
+Enjoy 3+ playable levels with automatic level loading upon completion.
+Audio:
+
+Background music plays continuously between scenes.
+Sound effects play when the ball is hit and when it hits the target, flag pole, hole, etc.
+Build:
+
+Play the game as a compiled .exe, not just inside the Unity editor.
+Scripts
+Player.cs: Handles player movement, camera rotation, shot power control, and stroke tracking.
+MusicManager.cs: Manages background music and ensures continuous playback between scenes.
+MouseFollow.cs: Controls the camera's rotation based on mouse movement.
+MainMenu.cs: Manages the main menu functionality, including starting the game and exiting.
+Direction.cs: Handles ball direction indication, shot power calculation, and shooting mechanics.
+BallControl.cs: Manages scene transitions and level progression based on ball triggers.
+Strokes.cs: Tracks the number of strokes taken by the player.
+ShotPower.cs: Manages shot power calculation and display.
+How to Play
+Use the movement keys to position the character.
+Aim the camera to adjust the shot direction.
+Hold down the space bar to increase shot power.
+Release the space bar to hit the ball.
+Complete each level by sinking the ball into the hole within the minimum number of strokes.
